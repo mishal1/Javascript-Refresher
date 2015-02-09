@@ -46,57 +46,57 @@ describe('JavaScript Refresher Questions', function() {
       expect(returnFirstHalfOfString('water')).toEqual('wat');
   });
 
-  // xit('10. makeNumberNegative: convert positive (or negative) number to a negative number', function() {
-  //   expect(makeNumberNegative(5)).toEqual(-5);
-  //   expect(makeNumberNegative(-3)).toEqual(-3);
-  // });
+  it('10. makeNumberNegative: convert positive (or negative) number to a negative number', function() {
+    expect(makeNumberNegative(5)).toEqual(-5);
+    expect(makeNumberNegative(-3)).toEqual(-3);
+  });
 
-  // xit('11. separateArrayIntoEvenAndOddNumbers: return nested array with one array of even numbers, one array of odd numbers', function() {
-  //   testArray = [1,2,3,4,5,6,7]
-  //   expect(separateArrayIntoEvenAndOddNumbers(testArray)).toEqual([[2,4,6], [1,3,5,7]]);
-  // });
+  it('11. separateArrayIntoEvenAndOddNumbers: return nested array with one array of even numbers, one array of odd numbers', function() {
+    testArray = [1,2,3,4,5,6,7]
+    expect(separateArrayIntoEvenAndOddNumbers(testArray)).toEqual([[2,4,6], [1,3,5,7]]);
+  });
 
-  // xit('12. numberOfElementsThatArePalindromes: return number of elements in an array that are palindromes', function() {
-  //   testArray = ['pop', 'coffee', 'level', 'hello', 'wow'];
-  //     expect(numberOfElementsThatArePalindromes(testArray)).toEqual(3);
-  // });
+  it('12. numberOfElementsThatArePalindromes: return number of elements in an array that are palindromes', function() {
+    testArray = ['pop', 'coffee', 'level', 'hello', 'wow'];
+      expect(numberOfElementsThatArePalindromes(testArray)).toEqual(3);
+  });
 
-  // xit('13. shortestWordInArray: return shortest string in an array', function() {
-  //     testArray = ['muffin', 'scone', 'tea', 'coffee', 'cafe', 'chocolate'];
-  //     expect(shortestWordInArray(testArray)).toEqual('tea');
-  // });
+  it('13. shortestWordInArray: return shortest string in an array', function() {
+      testArray = ['muffin', 'scone', 'tea', 'coffee', 'cafe', 'chocolate'];
+      expect(shortestWordInArray(testArray)).toEqual('tea');
+  });
 
-  // xit('14. longestWordInArray: return longest string in an array', function() {
-  //   testArray = ['muffin', 'scone', 'tea', 'coffee', 'cafe', 'chocolate'];
-  //   expect(longestWordInArray(testArray)).toEqual('chocolate');
-  // });
+  it('14. longestWordInArray: return longest string in an array', function() {
+    testArray = ['muffin', 'scone', 'tea', 'coffee', 'cafe', 'chocolate'];
+    expect(longestWordInArray(testArray)).toEqual('chocolate');
+  });
 
-  // xit('15. arrayTotal: return total of number elements in an array', function() {
-  //   testArray = [1,3,5,9,10];
-  //   expect(arrayTotal(testArray)).toEqual(28);
-  // });
+  it('15. arrayTotal: return total of number elements in an array', function() {
+    testArray = [1,3,5,9,10];
+    expect(arrayTotal(testArray)).toEqual(28);
+  });
 
-  // xit('16. doubleArray: return duplicate of array within a single array and NOT sorted', function() {
-  //   testArray = [1,2,3]
-  //   expect(doubleArray(testArray)).toEqual([1,2,3,1,2,3]);
-  // });
+  it('16. doubleArray: return duplicate of array within a single array and NOT sorted', function() {
+    testArray = [1,2,3]
+    expect(doubleArray(testArray)).toEqual([1,2,3,1,2,3]);
+  });
 
-  // xit('17. averageOfArray: return average of number elements within an array', function() {
-  //   testArrayA = [8,5,17,24,1,5];
-  //   testArrayB = [5,25,10];
-  //   expect(averageOfArray(testArrayA)).toEqual(10);
-  //   expect(averageOfArray(testArrayB)).toEqual(13.3);
-  // });
+  it('17. averageOfArray: return average of number elements within an array', function() {
+    testArrayA = [8,5,17,24,1,5];
+    testArrayB = [5,25,10];
+    expect(averageOfArray(testArrayA)).toEqual(10);
+    expect(averageOfArray(testArrayB)).toEqual(13.3);
+  });
 
-  // xit('18. removeElementsGreaterThanFive: return array with elements less than or equal to 5', function() {
-  //   testArray = [1,2,6,8,3,4,1,6,10,5,22,4];
-  //   expect(removeElementsGreaterThanFive(testArray)).toEqual([1,2,3,4,1,5,4]);
-  // });
+  it('18. removeElementsGreaterThanFive: return array with elements less than or equal to 5', function() {
+    testArray = [1,2,6,8,3,4,1,6,10,5,22,4];
+    expect(removeElementsGreaterThanFive(testArray)).toEqual([1,2,3,4,1,5,4]);
+  });
 
-  // xit('19. convertArrayToObject: convert an array into an object with index as the key', function() {
-  //   testArray = ['a','b','c'];
-  //   expect(convertArrayToObject(testArray)).toEqual({0: 'a', 1: 'b', 2:'c'});
-  // });
+  it('19. convertArrayToObject: convert an array into an object with index as the key', function() {
+    testArray = ['a','b','c'];
+    expect(convertArrayToObject(testArray)).toEqual({0: 'a', 1: 'b', 2:'c'});
+  });
 
   // xit('20. getLettersInArrayOfWords: return array with letters of all words sorted in alphabetical order', function() {
   //   testArray = ['hi', 'bye', 'no', 'yes'];
